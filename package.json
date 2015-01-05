@@ -1,0 +1,14 @@
+{
+  "name": "mailinone",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/mailer.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "juice": "^0.5.0",
+    "marked": "^0.3.2",
+    "mustache": "^1.0.0",
+    "xmldoc": "^0.1.4"
+  }
+}
