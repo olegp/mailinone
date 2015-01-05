@@ -1,14 +1,22 @@
 {
   "name": "mailinone",
+  "keywords":[
+    "email"
+  ],
   "version": "0.1.0",
-  "description": "",
-  "main": "./lib/mailer.js",
-  "author": "",
+  "description": "Sendmail for Common Node",
+  "main": "./lib/index.js",
+  "author":{
+    "name":"Oleg Podsechin",
+    "email":"oleg@ionsquare.com"
+  },
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/olegp/mailinone.git"
+  },
   "license": "MIT",
   "dependencies": {
     "juice": "^0.5.0",
-    "marked": "^0.3.2",
-    "mustache": "^1.0.0",
-    "xmldoc": "^0.1.4"
+    "mustache": "^1.0.0"
   }
 }
